@@ -379,7 +379,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "specctra_dsn": "",
+      "specctra_dsn": "../../magic_counter.dsn",
       "step": "",
       "vrml": ""
     },

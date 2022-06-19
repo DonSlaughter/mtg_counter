@@ -2405,10 +2405,10 @@
     (path "/73d33082-c168-4649-99b0-dc322b7fc11d/eaa42def-f865-47d3-a825-08bff8a9eb65"
       (reference "Q14") (unit 1) (value "2SA1015") (footprint "Package_TO_SOT_THT:TO-92_Wide")
     )
-    (path "/73d33082-c168-4649-99b0-dc322b7fc11d/9f516ad1-ba82-4a51-bffb-d9199bcd33c9"
+    (path "/73d33082-c168-4649-99b0-dc322b7fc11d/1621632d-d246-42a9-8749-483cfda5bb6c"
       (reference "Q15") (unit 1) (value "2SA1015") (footprint "Package_TO_SOT_THT:TO-92_Wide")
     )
-    (path "/73d33082-c168-4649-99b0-dc322b7fc11d/1621632d-d246-42a9-8749-483cfda5bb6c"
+    (path "/73d33082-c168-4649-99b0-dc322b7fc11d/9f516ad1-ba82-4a51-bffb-d9199bcd33c9"
       (reference "Q16") (unit 1) (value "2SA1015") (footprint "Package_TO_SOT_THT:TO-92_Wide")
     )
     (path "/73d33082-c168-4649-99b0-dc322b7fc11d/b604eb72-a71e-4aea-b7c2-0dd6045845c2"
@@ -2600,83 +2600,83 @@
     (path "/d1d39272-43c0-465e-b662-2cbc9ac37acb/745e8660-a535-4ed1-89f8-f5fbb0fb1bc4"
       (reference "R59") (unit 1) (value "10k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
     )
-    (path "/73d33082-c168-4649-99b0-dc322b7fc11d/754bc0b2-c475-46c2-923e-ba9dab72e350"
-      (reference "R60") (unit 1) (value "4.7k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
-    )
-    (path "/73d33082-c168-4649-99b0-dc322b7fc11d/cae94e09-316b-429a-9620-66646fb4bb6e"
-      (reference "R61") (unit 1) (value "4.7k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
-    )
-    (path "/73d33082-c168-4649-99b0-dc322b7fc11d/6c6a1a31-db6f-4268-b579-12195e4e69e7"
-      (reference "R62") (unit 1) (value "4.7k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
-    )
-    (path "/73d33082-c168-4649-99b0-dc322b7fc11d/ec3eee16-2161-4d9a-ad2a-e18f902cfcfe"
-      (reference "R63") (unit 1) (value "4.7k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
-    )
-    (path "/73d33082-c168-4649-99b0-dc322b7fc11d/ba2c4bda-cb2f-43e2-a7eb-1a7a1751e9b9"
-      (reference "R64") (unit 1) (value "4.7k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
-    )
-    (path "/73d33082-c168-4649-99b0-dc322b7fc11d/18463177-9eec-4d6b-9728-e69a3f29ccb5"
-      (reference "R65") (unit 1) (value "4.7k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
-    )
-    (path "/73d33082-c168-4649-99b0-dc322b7fc11d/e9a2e41a-1b9b-4702-90bc-eca12472b05a"
-      (reference "R66") (unit 1) (value "4.7k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
-    )
     (path "/73d33082-c168-4649-99b0-dc322b7fc11d/0c71588a-73e0-4fd4-939d-4d2de8a03bc0"
-      (reference "R67") (unit 1) (value "100R") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+      (reference "R60") (unit 1) (value "100R") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
     )
     (path "/73d33082-c168-4649-99b0-dc322b7fc11d/d18255b3-9f44-4cb4-b961-54f010d13a63"
-      (reference "R68") (unit 1) (value "100R") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+      (reference "R61") (unit 1) (value "100R") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
     )
     (path "/73d33082-c168-4649-99b0-dc322b7fc11d/108a0785-bbec-4def-b36a-8f6a20bc2c78"
-      (reference "R69") (unit 1) (value "100R") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+      (reference "R62") (unit 1) (value "100R") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
     )
     (path "/73d33082-c168-4649-99b0-dc322b7fc11d/fa559b51-9acc-48d0-88e0-dcbc6e76c3bc"
-      (reference "R70") (unit 1) (value "100R") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+      (reference "R63") (unit 1) (value "100R") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
     )
     (path "/73d33082-c168-4649-99b0-dc322b7fc11d/908adaab-a659-48c0-b23e-0e399adf30bd"
-      (reference "R71") (unit 1) (value "100R") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
-    )
-    (path "/73d33082-c168-4649-99b0-dc322b7fc11d/e2692bff-c0e3-4704-ad59-7f1dd733e7d2"
-      (reference "R72") (unit 1) (value "4.7k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+      (reference "R64") (unit 1) (value "100R") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
     )
     (path "/73d33082-c168-4649-99b0-dc322b7fc11d/25ea38be-cef2-4884-8547-d1d98cda2a2b"
-      (reference "R73") (unit 1) (value "100R") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+      (reference "R65") (unit 1) (value "100R") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
     )
     (path "/73d33082-c168-4649-99b0-dc322b7fc11d/fe340912-19cb-45f5-933b-aaf8136829e9"
-      (reference "R74") (unit 1) (value "100R") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+      (reference "R66") (unit 1) (value "100R") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
     )
     (path "/73d33082-c168-4649-99b0-dc322b7fc11d/9ca274d2-a97f-453e-863e-5c7bf33ac7da"
-      (reference "R75") (unit 1) (value "100R") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+      (reference "R67") (unit 1) (value "100R") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
     )
-    (path "/73d33082-c168-4649-99b0-dc322b7fc11d/58c8551d-e281-4124-ba18-057526aea8ce"
-      (reference "R76") (unit 1) (value "4.7k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+    (path "/73d33082-c168-4649-99b0-dc322b7fc11d/18463177-9eec-4d6b-9728-e69a3f29ccb5"
+      (reference "R68") (unit 1) (value "4.7k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
     )
-    (path "/73d33082-c168-4649-99b0-dc322b7fc11d/0737b91a-a54f-46c1-99a3-7d32e662ea19"
-      (reference "R77") (unit 1) (value "4.7k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+    (path "/73d33082-c168-4649-99b0-dc322b7fc11d/ec3eee16-2161-4d9a-ad2a-e18f902cfcfe"
+      (reference "R69") (unit 1) (value "4.7k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+    )
+    (path "/73d33082-c168-4649-99b0-dc322b7fc11d/6c6a1a31-db6f-4268-b579-12195e4e69e7"
+      (reference "R70") (unit 1) (value "4.7k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+    )
+    (path "/73d33082-c168-4649-99b0-dc322b7fc11d/cae94e09-316b-429a-9620-66646fb4bb6e"
+      (reference "R71") (unit 1) (value "4.7k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+    )
+    (path "/73d33082-c168-4649-99b0-dc322b7fc11d/754bc0b2-c475-46c2-923e-ba9dab72e350"
+      (reference "R72") (unit 1) (value "4.7k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
     )
     (path "/73d33082-c168-4649-99b0-dc322b7fc11d/620750d2-16c2-4a43-8d42-15a3547787bc"
-      (reference "R78") (unit 1) (value "100R") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+      (reference "R73") (unit 1) (value "100R") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
     )
     (path "/73d33082-c168-4649-99b0-dc322b7fc11d/82c2d216-5afb-42b8-b0b3-d4f29f77826f"
-      (reference "R79") (unit 1) (value "100R") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+      (reference "R74") (unit 1) (value "100R") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
     )
     (path "/73d33082-c168-4649-99b0-dc322b7fc11d/4fdff202-f830-4cb1-9ef0-0178352771cc"
-      (reference "R80") (unit 1) (value "100R") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+      (reference "R75") (unit 1) (value "100R") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
     )
     (path "/73d33082-c168-4649-99b0-dc322b7fc11d/3a395abe-ac7b-4cf1-8cba-56a56a05382f"
-      (reference "R81") (unit 1) (value "100R") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+      (reference "R76") (unit 1) (value "100R") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
     )
     (path "/73d33082-c168-4649-99b0-dc322b7fc11d/ad2da487-1e26-4a1c-b1b9-60a093a2901e"
-      (reference "R82") (unit 1) (value "100R") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+      (reference "R77") (unit 1) (value "100R") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
     )
     (path "/73d33082-c168-4649-99b0-dc322b7fc11d/b27c3b38-eca8-400b-bc3e-63caae9f8f08"
-      (reference "R83") (unit 1) (value "100R") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+      (reference "R78") (unit 1) (value "100R") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
     )
     (path "/73d33082-c168-4649-99b0-dc322b7fc11d/e4c089ea-0ba6-446a-a8a2-09489c6135df"
-      (reference "R84") (unit 1) (value "100R") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+      (reference "R79") (unit 1) (value "100R") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
     )
     (path "/73d33082-c168-4649-99b0-dc322b7fc11d/20d05528-9ff7-4771-8f6b-6f8df24f5c59"
-      (reference "R85") (unit 1) (value "100R") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+      (reference "R80") (unit 1) (value "100R") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+    )
+    (path "/73d33082-c168-4649-99b0-dc322b7fc11d/0737b91a-a54f-46c1-99a3-7d32e662ea19"
+      (reference "R81") (unit 1) (value "4.7k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+    )
+    (path "/73d33082-c168-4649-99b0-dc322b7fc11d/58c8551d-e281-4124-ba18-057526aea8ce"
+      (reference "R82") (unit 1) (value "4.7k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+    )
+    (path "/73d33082-c168-4649-99b0-dc322b7fc11d/e2692bff-c0e3-4704-ad59-7f1dd733e7d2"
+      (reference "R83") (unit 1) (value "4.7k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+    )
+    (path "/73d33082-c168-4649-99b0-dc322b7fc11d/e9a2e41a-1b9b-4702-90bc-eca12472b05a"
+      (reference "R84") (unit 1) (value "4.7k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+    )
+    (path "/73d33082-c168-4649-99b0-dc322b7fc11d/ba2c4bda-cb2f-43e2-a7eb-1a7a1751e9b9"
+      (reference "R85") (unit 1) (value "4.7k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
     )
     (path "/d0a46af1-3700-4197-b8c3-5f494795eeb7/e44d42e8-7b16-48ad-8416-d594ce8fab90"
       (reference "SW1") (unit 1) (value "Reset") (footprint "Button_Switch_THT:SW_PUSH_6mm_H5mm")
