@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.6,
-          "width": 2.4
+          "drill": 1.0,
+          "height": 1.7,
+          "width": 1.7
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -435,14 +435,6 @@
     [
       "d0a46af1-3700-4197-b8c3-5f494795eeb7",
       "Buttons_Row_1_and_2"
-    ],
-    [
-      "d1d39272-43c0-465e-b662-2cbc9ac37acb",
-      "Buttons_Row_3_and_4"
-    ],
-    [
-      "73d33082-c168-4649-99b0-dc322b7fc11d",
-      "Display_3_and_4"
     ]
   ],
   "text_variables": {}
