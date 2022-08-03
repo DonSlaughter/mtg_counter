@@ -2266,6 +2266,21 @@
     (path "/6c24aaa3-694e-4efb-a19c-b0182c95d014/cb9f725e-fb70-40ac-a4c2-0b37cb7a2a31"
       (reference "J4") (unit 1) (value "1st 7 Segment") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical")
     )
+    (path "/6c24aaa3-694e-4efb-a19c-b0182c95d014/cbb4e9f9-50ed-4dea-b468-cf981f351587"
+      (reference "J5") (unit 1) (value "2nd Bit_shifter") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+    )
+    (path "/6c24aaa3-694e-4efb-a19c-b0182c95d014/fa9bbc35-1a25-4a07-a739-24b38ed009f3"
+      (reference "J6") (unit 1) (value "2nd 7 Segment") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical")
+    )
+    (path "/6c24aaa3-694e-4efb-a19c-b0182c95d014/15c15035-ba62-434c-ba5d-f9cdc40f4f28"
+      (reference "J7") (unit 1) (value "decoder_input") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")
+    )
+    (path "/6c24aaa3-694e-4efb-a19c-b0182c95d014/c3d528b4-86ca-43f7-aeec-e9cfdc7c2f07"
+      (reference "J8") (unit 1) (value "disp_1_decoder") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")
+    )
+    (path "/6c24aaa3-694e-4efb-a19c-b0182c95d014/624d21ea-e795-4706-98c8-8fe373b1cb68"
+      (reference "J9") (unit 1) (value "disp_2_decoder") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")
+    )
     (path "/6c24aaa3-694e-4efb-a19c-b0182c95d014/bebbb230-3398-4504-842f-faf5e776e673"
       (reference "Q1") (unit 1) (value "Q_NPN_CBE") (footprint "Package_TO_SOT_THT:TO-92_Inline_Wide")
     )
