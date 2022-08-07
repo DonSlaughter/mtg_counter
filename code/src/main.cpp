@@ -6,6 +6,11 @@ int serial_data_output = PB0;
 int shift_register_clock = PB2;
 int storage_register_clock = PB1;
 
+//Transitor to switch digits on and off
+int transistor_r = PC0;
+int transistor_m = PC1;
+int transistor_l = PC2;
+
 const byte numbers[10] = {
 	0b11111100, // 0
 	0b01100000, // 1
@@ -23,7 +28,9 @@ void setup(){
 	pinMode(serial_data_output, OUTPUT);
 	pinMode(shift_register_clock, OUTPUT);
 	pinMode(storage_register_clock, OUTPUT);
-
+	pinMode(transistor_l, OUTPUT);
+	pinMode(transistor_m, OUTPUT);
+	pinMode(transistor_r, OUTPUT);
 }
 
 void loop(){
@@ -31,6 +38,9 @@ void loop(){
 //	shiftOut(serial_data_output, shift_register_clock, LSBFIRST, numbers[0]);
 //	digitalWrite(storage_register_clock,HIGH);
 //	delay(1000);
+	digitalWrite(transistor_l, HIGH);
+	digitalWrite(transistor_m, HIGH);
+	digitalWrite(transistor_r, HIGH);
 	for (byte i=0; i<sizeof(numbers); i++) {
 		digitalWrite(storage_register_clock, LOW);
 		shiftOut(serial_data_output, shift_register_clock, LSBFIRST, numbers[i]);
