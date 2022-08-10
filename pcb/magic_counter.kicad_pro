@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.0,
-          "height": 1.5,
-          "width": 1.5
+          "drill": 0.8,
+          "height": 1.6,
+          "width": 2.4
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -435,6 +435,10 @@
     [
       "d0a46af1-3700-4197-b8c3-5f494795eeb7",
       "Buttons_Row_1_and_2"
+    ],
+    [
+      "63ac5c74-ca82-4764-928a-a2069d691c7a",
+      "Phase Switch"
     ]
   ],
   "text_variables": {}

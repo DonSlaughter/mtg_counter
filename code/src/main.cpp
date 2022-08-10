@@ -2,14 +2,14 @@
 
 //Pin declarations
 //Shiftregister 74hc595n
-int serial_data_output = PB0;
-int shift_register_clock = PB2;
-int storage_register_clock = PB1;
+int serial_data_output = PIN_PB0;
+int shift_register_clock = PIN_PB2;
+int storage_register_clock = PIN_PB1;
 
 //Transitor to switch digits on and off
-int transistor_r = PC0;
-int transistor_m = PC1;
-int transistor_l = PC2;
+int transistor_r = PIN_PC0;
+int transistor_m = PIN_PC1;
+int transistor_l = PIN_PC2;
 
 const byte numbers[10] = {
 	0b11111100, // 0
@@ -34,10 +34,6 @@ void setup(){
 }
 
 void loop(){
-//	digitalWrite(storage_register_clock,LOW);
-//	shiftOut(serial_data_output, shift_register_clock, LSBFIRST, numbers[0]);
-//	digitalWrite(storage_register_clock,HIGH);
-//	delay(1000);
 	digitalWrite(transistor_l, HIGH);
 	digitalWrite(transistor_m, HIGH);
 	digitalWrite(transistor_r, HIGH);
