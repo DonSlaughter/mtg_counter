@@ -6,6 +6,9 @@ int serial_data_output = PIN_PB0;
 int shift_register_clock = PIN_PB2;
 int storage_register_clock = PIN_PB1;
 
+int parallel_load = PIN_PD1;
+int clock = PIN_PD0;
+
 //Transitor to switch digits on and off
 int transistor_r = PIN_PC0;
 int transistor_m = PIN_PC1;
