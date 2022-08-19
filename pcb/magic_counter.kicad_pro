@@ -34,8 +34,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 1.0,
-          "height": 1.7,
-          "width": 1.7
+          "height": 3.5,
+          "width": 3.5
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -126,7 +126,9 @@
         "use_height_for_length_calcs": true
       },
       "track_widths": [
-        0.0
+        0.0,
+        0.5,
+        1.0
       ],
       "via_dimensions": [
         {
@@ -446,6 +448,10 @@
     [
       "63ac5c74-ca82-4764-928a-a2069d691c7a",
       "Phase Switch"
+    ],
+    [
+      "8ba761ec-fbbc-420c-b4ed-116ea8903523",
+      "Power"
     ]
   ],
   "text_variables": {}
