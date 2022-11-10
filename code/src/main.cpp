@@ -1,6 +1,7 @@
 #include <Arduino.h>
 #include "led.h"
 #include "hc165.h"
+#include "hc595.h"
 
 //Pin declarations
 //control LED's

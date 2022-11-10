@@ -3,7 +3,7 @@
 
 class hc165
 {
-	public :
+	public:
 		hc165(uint8_t parallel_load, uint8_t clock_enable, uint8_t clock, uint8_t serial_out);
 		byte read_value();
 	private:
