@@ -9,22 +9,42 @@ hc595::hc595(uint8_t latch_pin, uint8_t clock_pin, uint8_t data_pin)
 	pinMode(_latch_pin, OUTPUT);
 	pinMode(_clock_pin, OUTPUT);
 	pinMode(_data_pin, OUTPUT);
+	_shift_value = 1;
 }
 
-void hc595::write_phase_led(uint16_t shift_value)
+void hc595::update_phase_led(int8_t direction)
 {
-	uint16_t _mask = 1;
-	uint16_t _write_value[16];
-	for (uint16_t i = 0; i <= 15; i++){
-		if ((shift_value & _mask) != 0) {
-			_write_value[i] = 1;
+	//turn Phase Leds off
+	if (direction == 127){
+		_shift_value = 0;
+	}
+	//move Led to next Phase
+	else if (direction == 1){
+		if (_shift_value == 0){
+			_shift_value =1;
 		}
 		else {
-			_write_value[i] = 0;
+			_shift_value = _shift_value << 1;
+			if (_shift_value == 4096) _shift_value = 1;
 		}
-		_mask = _mask << 1;
 	}
+	//move Led to previous Phase
+	else if (direction == -1){
+		if (_shift_value == 0) {
+			_shift_value = 2048;
+		}
+		else {
+			_shift_value = _shift_value >> 1;
+		}
+	}
+
+	write_phase_led(_shift_value);
+}
+
+void hc595::write_phase_led(uint16_t _shift_value)
+{
 	digitalWrite(_latch_pin, LOW);
-	shiftOut(_data_pin, _clock_pin, MSBFIRST, _write_value);
+	shiftOut(_data_pin, _clock_pin, MSBFIRST, _shift_value >>8);
+	shiftOut(_data_pin, _clock_pin, MSBFIRST, _shift_value);
 	digitalWrite(_latch_pin, HIGH);
 }
