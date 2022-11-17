@@ -24,7 +24,7 @@ led led_01(led_pin_01);
 led led_02(led_pin_02);
 
 //Classes
-hc165 led_row(parallel_load_1, clock_enable_1, clock_1, button_serial_out_1);
+hc165 bottom_row(parallel_load_1, clock_enable_1, clock_1, button_serial_out_1);
 hc595 phases(latch_pin_led, shift_reg_led, ser_data_led);
 
 
@@ -34,10 +34,20 @@ hc595 phases(latch_pin_led, shift_reg_led, ser_data_led);
 void setup()
 {
 	Serial.begin(9600);
-	phases.update_phase_led(0);
+	phases.update_phases(0);
 }
 
 void loop()
 {
+	byte test;
+	test = bottom_row.read_value();
+	if (test == 1) {
+		phases.update_phases(1);
+	}
+	else if (test == 2) {
+		phases.update_phases(-1);
+	}
+	Serial.println(test);
+
 	delay(500);
 }
