@@ -35,19 +35,20 @@ void setup()
 {
 	Serial.begin(9600);
 	phases.update_phases(0);
+	led_01.on();
 }
 
 void loop()
 {
-	byte test;
-	test = bottom_row.read_value();
+	led_01.toggle();
+	led_02.toggle();
+	byte test = bottom_row.read_value();
 	if (test == 1) {
 		phases.update_phases(1);
 	}
 	else if (test == 2) {
 		phases.update_phases(-1);
 	}
-	Serial.println(test);
-
-	delay(500);
+	test = 0;
+	delay(100);
 }

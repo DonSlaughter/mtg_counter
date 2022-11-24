@@ -7,11 +7,24 @@ led::led(uint8_t led_pin){
 }
 
 void led::on(){
-	digitalWrite(_led_pin, HIGH);
+	_led_state = HIGH;
+	digitalWrite(_led_pin, _led_state);
 	return;
 }
 
 void led::off(){
-	digitalWrite(_led_pin, LOW);
+	_led_state = LOW;
+	digitalWrite(_led_pin, _led_state);
 	return;
+}
+
+void led::toggle(){
+	if (_led_state == LOW) {
+		_led_state = HIGH;
+		digitalWrite(_led_pin, _led_state);
+	}
+	else if (_led_state == HIGH) {
+		_led_state = LOW;
+		digitalWrite(_led_pin, _led_state);
+	}
 }

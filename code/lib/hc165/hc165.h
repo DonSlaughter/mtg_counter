@@ -4,12 +4,14 @@
 class hc165
 {
 	public:
-		hc165(uint8_t parallel_load, uint8_t clock_enable, uint8_t clock, uint8_t serial_out);
+		hc165(uint8_t parallel_load_pin, uint8_t clock_enable_pin, uint8_t clock_pin, uint8_t serial_out_pin);
 		byte read_value();
 	private:
-		uint8_t _parallel_load;
-		uint8_t _clock_enable;
-		uint8_t _clock;
-		uint8_t _serial_out;
+		void _clock();
+		void _load();
+		uint8_t _parallel_load_pin;
+		uint8_t _clock_enable_pin;
+		uint8_t _clock_pin;
+		uint8_t _serial_out_pin;
 };
 #endif
