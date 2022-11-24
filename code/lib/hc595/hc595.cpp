@@ -30,7 +30,7 @@ void hc595::update_phases(int8_t direction)
 	}
 	//move Led to previous Phase
 	else if (direction == -1){
-		if (_shift_value == 0) {
+		if (_shift_value == 1) {
 			_shift_value = 2048;
 		}
 		else {
