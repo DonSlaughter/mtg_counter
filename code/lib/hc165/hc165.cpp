@@ -28,37 +28,6 @@ void hc165::_load()
 	delayMicroseconds(5);
 
 }
-//byte hc165::read_value()
-//{
-//
-//	digitalWrite(_clock, HIGH);
-//	digitalWrite(_clock_enable, LOW);
-//	byte incoming = shiftIn(_serial_out, _clock, LSBFIRST);
-//	digitalWrite(_clock_enable, HIGH);
-//	Serial.println(incoming);
-//	byte value;
-//	switch (incoming)  {
-//		case B10000000:
-//			value = 1;
-//		case B01000000:
-//			value = 2;
-//		case B00100000:
-//			value = 3;
-//		case B00010000:
-//			value = 4;
-//		case B00001000:
-//			value = 5;
-//		case B00000100:
-//			value = 6;
-//		case B00000010:
-//			value = 7;
-//		case B00000001:
-//			value = 8;
-//		default:
-//			value = 0;
-//	}
-//	return value;
-//}
 
 byte hc165::read_value()
 {
