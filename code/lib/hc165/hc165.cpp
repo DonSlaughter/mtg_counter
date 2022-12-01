@@ -31,16 +31,20 @@ void hc165::_load()
 
 byte hc165::read_value()
 {
-	byte incoming = 0;
 	_load();
 
 	digitalWrite(_clock_enable_pin, LOW);
 
 	for (uint8_t i = 0; i < 8; i++) {
-		incoming |= digitalRead(_serial_out_pin) << (7-i);
+		_incomming |= digitalRead(_serial_out_pin) << (7-i);
 		_clock();
 	}
 	digitalWrite(_clock_enable_pin, HIGH);
-	Serial.println(incoming);
-	return incoming;
+	if (_incomming == _old_incomming) {
+		_incomming = 0;
+	}
+	else {
+		_old_incomming = _incomming;
+	}
+	return _incomming;
 }

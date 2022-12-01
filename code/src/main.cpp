@@ -43,18 +43,26 @@ hc595 phases(latch_pin_led, shift_reg_led, ser_data_led);
 hc595 displays(latch_pin_disp, shift_reg_disp, ser_data_disp);
 cd4028 bcd(dec_encoder_a, dec_encoder_b, dec_encoder_c, dec_encoder_d);
 
+uint8_t input_bottom_row;
+
 void setup()
 {
 	Serial.begin(9600);
-	phases.update_phases(0);
+	phases.update_phases(1);
 	led_01.on();
+
 }
 
 void loop()
 {
-	for (int i =0; i <= 4; i++) {
-		bcd.display(i);
-		displays.update_display(2);
-		//delay(10);
+	input_bottom_row = bottom_row.read_value();
+	if (input_bottom_row == 1) {
+		phases.update_phases(1);
+	}
+	else if (input_bottom_row == 2) {
+		phases.update_phases(-1);
+	}
+	else if (input_bottom_row == 4) {
+		phases.update_phases(127);
 	}
 }

@@ -39,26 +39,27 @@ void hc595::update_phases(int8_t direction)
 	}
 	write_out(_shift_value);
 }
-void hc595::update_display(uint16_t number)
+void hc595::update_display(uint8_t number_1, uint8_t number_2)
 {
-	uint8_t ones (number % 10);
-	uint8_t tens ((number / 10) % 10);
-	uint8_t hundreds ((number / 100) % 10);
-	uint8_t thousands ((number / 1000) % 10);
 	const byte numbers[10] = {
+		//DP,g,f,e,d,c,b,a
 		0b00111111, // 0
 		0b00000110, // 1
 		0b01011011, // 2
-		0b01110010, // 3
+		0b01001111, // 3
 		0b01100110, // 4
-		0b00110110, // 5
-		0b00111110, // 6
-		0b01100000, // 7
-		0b01111110, // 8
-		0b01110110  // 9
+		0b01101101, // 5
+		0b01111101, // 6
+		0b00000111, // 7
+		0b01111111, // 8
+		0b01101111  // 9
 	};
 
-	write_out(numbers[ones]);
+	//write_out(numbers[ones]);
+	digitalWrite(_latch_pin, LOW);
+	shiftOut(_data_pin, _clock_pin, MSBFIRST, numbers[number_1]>>8);
+	shiftOut(_data_pin, _clock_pin, MSBFIRST, numbers[number_2]);
+	digitalWrite(_latch_pin, HIGH);
 
 }
 

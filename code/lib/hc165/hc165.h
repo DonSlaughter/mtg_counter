@@ -9,6 +9,7 @@ class hc165
 	private:
 		void _clock();
 		void _load();
+		byte _incomming, _old_incomming;
 		uint8_t _parallel_load_pin;
 		uint8_t _clock_enable_pin;
 		uint8_t _clock_pin;
