@@ -56,13 +56,20 @@ void setup()
 void loop()
 {
 	input_bottom_row = bottom_row.read_value();
-	if (input_bottom_row == 1) {
-		phases.update_phases(1);
+	switch (input_bottom_row) {
+		case 1:
+			phases.update_phases(1);
+			break;
+		case 2:
+			phases.update_phases(-1);
+			break;
+		case 4:
+			phases.update_phases(127);
+			break;
+		default:
+			break;
 	}
-	else if (input_bottom_row == 2) {
-		phases.update_phases(-1);
-	}
-	else if (input_bottom_row == 4) {
-		phases.update_phases(127);
-	}
+	//Display tests:
+		bcd.display(1);
+		displays.update_display(8,8);
 }
