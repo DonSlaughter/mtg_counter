@@ -72,4 +72,6 @@ void loop()
 	//Display tests:
 		bcd.display(1);
 		displays.update_display(8,8);
+		bcd.display(5);
+		displays.update_display(8,8);
 }
